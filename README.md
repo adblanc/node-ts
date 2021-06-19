@@ -1,5 +1,5 @@
 
-# Node.js typescript starter
+# node-ts
 
 If you want to start your node.js project with a minimalistic boilerplate
 
@@ -10,6 +10,7 @@ If you want to start your node.js project with a minimalistic boilerplate
 - Prettier
 - Eslint
 - ts-node-dev
+- Paths mapping
 - Automatic linting on commit
 - Automatic testing on push
 
@@ -59,4 +60,19 @@ To get code coverage
 
 ```bash
   yarn test:cover
+```
+
+
+## Production
+
+To build run
+
+```bash
+  yarn build
+```
+
+To start run
+
+```bash
+  yarn start
 ```
