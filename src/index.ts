@@ -1,1 +1,1 @@
-console.log('Hello World')
+export const helloWorld = () => 'Hello World'
